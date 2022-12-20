@@ -1,0 +1,193 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+
+.header {
+    background-color: black;
+    color: #fff;
+    height: 90px;
+}
+
+.header-logo {
+    font-size: 36px;
+    padding: 20px 40px;
+    float: left;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.header-list li a {
+    color: rgba(255, 255, 255, 0.486);
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+
+}
+
+.copy-container {
+    padding: 50px;
+}
+
+.copy-container img {
+    width: 15%;
+
+
+
+}
+
+.copy-container h1 {
+    font-size: 100px;
+}
+
+.copy-container h2 {
+    font-size: 31px;
+    font-variant: small-caps;
+
+}
+
+.copy-container span {
+    color: gold;
+}
+
+#tentangsaya {
+    padding-top: 50px;
+}
+
+.wrapper {
+    background-color: rgb(219, 216, 216);
+    padding: 60px;
+
+
+}
+
+.ket {
+    margin: 20px;
+}
+
+
+.section-title {
+    border-bottom: 2px #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+
+}
+
+
+
+.contents {
+    height: 500px;
+    margin-top: 50px;
+
+
+}
+
+.contents-item {
+    float: left;
+    margin-left: 120px;
+    padding-left: 60px;
+
+
+}
+
+.contents-item img {
+    width: 200px;
+
+
+}
+
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+
+
+}
+
+.contact-form {
+    padding-bottom: 50px;
+
+}
+
+
+input,
+textarea {
+    width: 730px;
+
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+
+}
+
+.section-title h3 {
+    margin-top: 100px;
+}
+
+
+.contact-submit {
+    background-color: rgb(236, 220, 126);
+    color: black;
+    width: 500px;
+}
+
+.footer {
+    background-color: #636a6e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
